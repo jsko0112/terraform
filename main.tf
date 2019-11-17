@@ -1,4 +1,4 @@
-# Terraform Example
+# Terraform Example for AWS
 # author  : jsko
 
 provider "aws" {
