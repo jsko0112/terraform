@@ -1,5 +1,6 @@
 # Terraform Example for AWS
 # author  : jsko
+# since : 2019.11
 
 provider "aws" {
         region = "ap-northeast-2"
