@@ -46,3 +46,8 @@ output "public_ip" {
 	value = "${aws_instance.example.public_ip}"
 }
 
+# ELB 설정
+resource "aws_elb" "example"  {
+	name = "terraform_asg_example"
+	availability_zone = ["${data.aws_availability_zones.all.names}"]
+}
