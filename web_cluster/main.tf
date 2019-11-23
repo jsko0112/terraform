@@ -51,3 +51,5 @@ resource "aws_elb" "example"  {
 	name = "terraform_asg_example"
 	availability_zone = ["${data.aws_availability_zones.all.names}"]
 }
+
+#VSC - git 연동
