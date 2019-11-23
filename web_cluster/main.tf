@@ -52,4 +52,4 @@ resource "aws_elb" "example"  {
 	availability_zone = ["${data.aws_availability_zones.all.names}"]
 }
 
-#VSC - git 연동
+#VSC - git 연동 -- Add Comment
